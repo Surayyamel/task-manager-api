@@ -6,5 +6,5 @@ mongoose.connect(process.env.MONGODB_URL, {
     useCreateIndex: true, // When mongoose works with mongodb our indexes are created
     useUnifiedTopology: true,
     useFindAndModify: false
-});
+}, console.log(process.env.MONGODB_URL));
 
