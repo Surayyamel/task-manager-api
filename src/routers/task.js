@@ -1,7 +1,6 @@
 const express = require('express');
 const Task = require('../models/task');
 const auth = require('../middleware/auth');
-const { findOne } = require('../models/task');
 const router = new express.Router();
 
 // Create a new task

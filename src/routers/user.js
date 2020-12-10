@@ -87,7 +87,7 @@ router.patch('/users/me', auth, async (req, res) => {
     }
 });
 
-// Delete user by ID
+// Delete user 
 router.delete('/users/me', auth, async (req, res) => {
     try {
         // We attached the autenticated user to the request in the middleware. We use the remove() method on the mongoose document.
